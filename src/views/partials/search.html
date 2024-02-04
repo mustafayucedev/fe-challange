@@ -1,0 +1,218 @@
+<section class="search-section">
+    <div class="search-container">
+        <div class="search-title">Nereye Gitmek İstersiniz?</div>
+        <ul class="search-tab-header js-tab-title">
+            <li class="active" data-tab="ticket">
+                <button>
+                    <img src="./img/icons/icon-ticket.svg" alt="Bilet Satış">
+                    <span>Bilet Satış</span>
+                </button>
+            </li>
+            <li data-tab="reservation">
+                <button>
+                    <img src="./img/icons/icon-reservation.svg" alt="Rezervasyon">
+                    <span>Rezervasyon</span>
+                </button>
+            </li>
+            <li data-tab="map-search">
+                <button>
+                    <img src="./img/icons/icon-map-search.svg" alt="Bilet Satış">
+                    <span>Haritadan Arama</span>
+                </button>
+            </li>
+        </ul>
+        <div class="search-tab-content">
+            <div class="js-tab-content active" data-tab-content="ticket">
+                <div class="search-inner">
+                    <div class="search-item" id="item-from">
+                        <div class="search-icon">
+                            <img src="./img/icons/icon-location.svg" alt="Nereden">
+                        </div>
+                        <div class="search-form">
+                            <div class="search-label">Nereden</div>
+                            <input type="text" placeholder="Şehir veya İstasyon" id="from">
+                            <div class="location-list" id="from-list">
+                                <div class="location-favorites">
+                                    <div class="location-favorites-header">
+                                        <div class="location-favorites-title">
+                                            <img src="./img/icons/icon-star.svg" alt="Favori Duraklarım">
+                                            <span>Favori Duraklarım</span>
+                                        </div>
+                                        <a href="#" title="Haritadan Ara">Haritadan ara</a>
+                                    </div>
+                                    <div class="location-favorites-list">
+                                        <ul class="locations locations-from">
+                                            <li>
+                                                <img src="./img/icons/icon-location.svg" alt="Pendik Garı / İstanbul">
+                                                <span>Pendik Garı / İstanbul</span>
+                                            </li>
+                                            <li>
+                                                <img src="./img/icons/icon-location.svg" alt="Maltepe Garı / İstanbul">
+                                                <span>Maltepe Garı / İstanbul</span>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <ul class="locations locations-from">
+                                    <li>
+                                        <img src="./img/icons/icon-location.svg" alt="Bakırköy Garı / İstanbul">
+                                        <span>Bakırköy Garı / İstanbul</span>
+                                    </li>
+                                    <li>
+                                        <img src="./img/icons/icon-location.svg" alt="Bostancı Garı / İstanbul">
+                                        <span>Bostancı Garı / İstanbul</span>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="search-item" id="item-to">
+                        <div class="search-icon">
+                            <img src="./img/icons/icon-location.svg" alt="Nereye">
+                        </div>
+                        <div class="search-form">
+                            <div class="search-label">Nereye</div>
+                            <input type="text" placeholder="Şehir veya İstasyon" id="to">
+                            <div class="location-list location-list-to" id="to-list">
+                                <div class="location-favorites">
+                                    <div class="location-favorites-header">
+                                        <div class="location-favorites-title">
+                                            <img src="./img/icons/icon-star.svg" alt="Favori Duraklarım">
+                                            <span>Favori Duraklarım</span>
+                                        </div>
+                                        <a href="#" title="Haritadan Ara">Haritadan ara</a>
+                                    </div>
+                                    <div class="location-favorites-list">
+                                        <ul class="locations locations-to">
+                                            <li>
+                                                <img src="./img/icons/icon-location.svg" alt="Pendik Garı / İstanbul">
+                                                <span>Pendik Garı / İstanbul</span>
+                                            </li>
+                                            <li>
+                                                <img src="./img/icons/icon-location.svg" alt="Maltepe Garı / İstanbul">
+                                                <span>Maltepe Garı / İstanbul</span>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <ul class="locations locations-to">
+                                    <li>
+                                        <img src="./img/icons/icon-location.svg" alt="Bakırköy Garı / İstanbul">
+                                        <span>Bakırköy Garı / İstanbul</span>
+                                    </li>
+                                    <li>
+                                        <img src="./img/icons/icon-location.svg" alt="Bostancı Garı / İstanbul">
+                                        <span>Bostancı Garı / İstanbul</span>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="search-item">
+                        <div class="search-icon">
+                            <img src="./img/icons/icon-date.svg" alt="Gidiş-Dönüş Tarihi">
+                        </div>
+                        <div class="search-form">
+                            <div class="search-label">Gidiş-Dönüş Tarihi</div>
+                            <input type="text" placeholder="Gidiş Tarihi - Dönüş Tarihi" id="date">
+                        </div>
+                    </div>
+                    <div class="search-item search-item-last">
+                        <div class="search-icon">
+                            <img src="./img/icons/icon-passenger.svg" alt="Yolcu Sayısı">
+                        </div>
+                        <div class="search-form">
+                            <div class="search-label">Yolcu Sayısı</div>
+                            <input type="text" placeholder="1 Kişi" id="passenger">
+                            <div class="passenger-list" id="passenger-list">
+                                <div class="passenger-header">Yolcu Seçimi</div>
+                                <div class="passenger-content">
+                                    <ul>
+                                        <li>
+                                            <div class="passenger-title">
+                                                <p>Yetişkin</p>
+                                                <span>26+</span>
+                                            </div>
+                                            <div class="passenger-qty qty-item">
+                                                <button class="decrement">-</button>
+                                                <input type="text" value="1">
+                                                <button class="increment">+</button>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="passenger-title">
+                                                <p>Genç</p>
+                                                <span>13-26</span>
+                                            </div>
+                                            <div class="passenger-qty qty-item">
+                                                <button class="decrement">-</button>
+                                                <input type="text" value="0">
+                                                <button class="increment">+</button>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="passenger-title">
+                                                <p>Çocuk</p>
+                                                <span>7-12</span>
+                                            </div>
+                                            <div class="passenger-qty qty-item">
+                                                <button class="decrement">-</button>
+                                                <input type="text" value="0">
+                                                <button class="increment">+</button>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="passenger-title">
+                                                <p>60-64 Yaş</p>
+                                                <span>(%15 İndirim)</span>
+                                            </div>
+                                            <div class="passenger-qty qty-item">
+                                                <button class="decrement">-</button>
+                                                <input type="text" value="0">
+                                                <button class="increment">+</button>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="passenger-title">
+                                                <p>Öğretmen</p>
+                                            </div>
+                                            <div class="passenger-qty qty-item">
+                                                <button class="decrement">-</button>
+                                                <input type="text" value="0">
+                                                <button class="increment">+</button>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="passenger-title passenger-title-custom">
+                                                <p>Evcil hayvan</p>
+                                            </div>
+                                            <div class="passenger-qty qty-item">
+                                                <button class="decrement">-</button>
+                                                <input type="text" value="0">
+                                                <button class="increment">+</button>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <button class="search-button">ARA</button>
+                        </div>
+                     </div>
+                     <div class="location-change" id="location-change">
+                        <button>
+                            <img src="./img/icons/icon-location-change.svg" alt="Konum Değiştir">
+                        </button>
+                     </div>
+                </div>
+             </div>
+             <div class="js-tab-content" data-tab-content="reservation">
+                <p class="search-info">Rezervasyon Modülü Hazırlanıyor..</p>
+             </div>
+             <div class="js-tab-content" data-tab-content="map-search">
+                <p class="search-info">Haritadan Arama Modülü Hazırlanıyor..</p>
+             </div>
+        </div>
+    </div>
+</section>

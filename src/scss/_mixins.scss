@@ -1,0 +1,17 @@
+@mixin center {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+@mixin max($breakpoint) {
+	@media (max-width: ($breakpoint + 1) + px) {
+		@content;
+	}
+}
+
+@mixin min($breakpoint) {
+	@media (min-width: ($breakpoint + 1) + px) {
+		@content;
+	}
+}

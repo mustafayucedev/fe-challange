@@ -1,0 +1,80 @@
+.seo-area-section {
+    padding-block-start: 135px;
+    padding-block-end: 75px;
+    margin-block-end: 105px;
+    background: url(../img/seo-area-bg.jpg) top left no-repeat;
+    background-size: cover;
+    @include max($md) {
+        padding: 30px 15px;
+        margin-block-end: 30px;
+    }
+    .seo-area-content {
+        background-color: $white;
+        border-radius: 20px;
+        padding: 70px 40px;
+        @include max($md) {
+            padding: 15px;
+            border-radius: 8px;
+        }
+        .seo-area-item {
+            margin-block-end: 50px;
+            .seo-area-icon {
+                margin-block-end: 15px;
+            }
+            .seo-area-text {
+                margin-block-end: 15px;
+                h3 {
+                    color: $secondary-100;
+                    font-size: 20px;
+                    font-weight: 500;
+                    margin-block-end: 15px;
+                }
+                p {
+                    color: $primary-100;
+                    font-size: 16px;
+                    font-weight: 500;
+                    line-height: 26px;
+                }
+            }
+            .seo-area-link {
+                a {
+                    color: $primary-100;
+                    font-size: 14px;
+                    font-weight: 600;
+                    text-decoration: underline;
+                    transition: $transition;
+                    &:hover {
+                        color: $secondary-100;
+                    }
+                }
+            }
+            @include max($md) {
+                margin-block-end: 30px;
+            }
+            @include max($xs) {
+                .seo-area-icon {
+                    text-align: center;
+                    margin-block-end: 5px;
+                }
+                .seo-area-text {
+                    text-align: center;
+                    margin-block-end: 5px;
+                    h3 {
+                        font-size: 18px;
+                        margin-block-end: 5px;
+                    }
+                    p {
+                        font-size: 13px;
+                        line-height: 22px;
+                    }
+                }
+                .seo-area-link {
+                    text-align: center;
+                    a {
+                        font-size: 13px;
+                    }
+                }
+            }
+        }
+    }
+}

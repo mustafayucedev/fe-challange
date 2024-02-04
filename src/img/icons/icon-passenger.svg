@@ -1,0 +1,20 @@
+<svg id="Hotel-layout" xmlns="http://www.w3.org/2000/svg" width="32.118" height="24" viewBox="0 0 32.118 24">
+  <g id="Search_Result_1_Grid" transform="translate(0.5 0.5)">
+    <g id="form_search_hotel_row" transform="translate(0 0)">
+      <g id="input" transform="translate(0)">
+        <g id="guest" transform="translate(0 0)">
+          <g id="ico_guest_search_box">
+            <g id="Light">
+              <path id="Shape" d="M.5,19.971a9.471,9.471,0,0,1,18.941,0Z" transform="translate(-0.5 3.029)" fill="none" stroke="#707070" stroke-linecap="round" stroke-linejoin="round" stroke-width="1" fill-rule="evenodd"/>
+              <path id="Shape-2" data-name="Shape" d="M13.994,3.558A9.5,9.5,0,0,0,19.3,5.171a9.534,9.534,0,0,0,3.78-.778" transform="translate(4.263 0.579)" fill="none" stroke="#707070" stroke-linecap="round" stroke-linejoin="round" stroke-width="1" fill-rule="evenodd"/>
+              <path id="Shape-3" data-name="Shape" d="M13.26,2.529a5.749,5.749,0,1,1,1,8.373,5.927,5.927,0,0,1-.676-.58" transform="translate(4.004 -0.499)" fill="none" stroke="#707070" stroke-linecap="round" stroke-linejoin="round" stroke-width="1" fill-rule="evenodd"/>
+              <path id="Shape-4" data-name="Shape" d="M14.5,10.892a9.477,9.477,0,0,1,12.176,9.078H17.882" transform="translate(4.441 3.029)" fill="none" stroke="#707070" stroke-linecap="round" stroke-linejoin="round" stroke-width="1" fill-rule="evenodd"/>
+              <path id="Shape-5" data-name="Shape" d="M3.838,2.592A9.554,9.554,0,0,0,14.49,4.734" transform="translate(0.678 0.238)" fill="none" stroke="#707070" stroke-linecap="round" stroke-linejoin="round" stroke-width="1" fill-rule="evenodd"/>
+              <circle id="Oval" cx="5.75" cy="5.75" r="5.75" transform="translate(3.721)" fill="none" stroke="#707070" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+            </g>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

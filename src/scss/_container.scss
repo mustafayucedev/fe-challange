@@ -1,0 +1,35 @@
+.container {
+	padding-right: 15px;
+	padding-left: 15px;
+	@include min($lg) {
+		max-width: 1400px;
+    }
+}
+
+.row {
+	margin-right: -15px;
+	margin-left: -15px;
+	.col,
+	[class*="col-"] {
+		padding-right: 15px;
+		padding-left: 15px;
+    }
+    @include max($sm) {
+        margin-right: -7.5px;
+        margin-left: -7.5px;
+        .col,
+        [class*="col-"] {
+            padding-right: 7.5px;
+            padding-left: 7.5px;
+        }
+    }
+	&.no-gutters {
+		margin-right: 0;
+		margin-left: 0;
+		> .col,
+		> [class*="col-"] {
+			padding-right: 0;
+			padding-left: 0;
+		}
+	}
+}

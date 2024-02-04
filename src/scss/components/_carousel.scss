@@ -1,0 +1,77 @@
+.owl-carousel {
+    position: relative;
+}
+
+.owl-nav {
+    position: absolute;
+    top: 40%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 0 !important;
+    @include max($md) {
+        top: 50%;
+    }
+    .owl-prev,
+    .owl-next {
+        position: absolute;
+        width: 70px;
+        height: 145px;
+        background-color: rgba(75,74,74,.6) !important;
+        border-radius: 0 !important;
+        margin: 0 !important;
+        z-index: 2;
+        transition: $transition;
+        span {
+            font-size: 0;
+            @include max($md) {
+                font-size: 20px;
+                color: $white;
+            }
+        }
+        &:hover {
+            background-color: rgba(75,74,74,100) !important;
+        }
+        @include max($md) {
+            width: 30px;
+            height: 30px;
+        }
+    }
+    .owl-prev {
+        left: 0;
+        &:before {
+            content: '';
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            left: 0;
+            right: 0;
+            width: 20px;
+            height: 37px;
+            margin: auto;
+            background: url(../img/icons/icon-prev.svg) no-repeat;
+            @include max($md) {
+                display: none;
+            }
+        }
+    }
+    .owl-next {
+        right: 0;
+        &:before {
+            content: '';
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            left: 0;
+            right: 0;
+            width: 20px;
+            height: 37px;
+            margin: auto;
+            background: url(../img/icons/icon-next.svg) no-repeat;
+            @include max($md) {
+                display: none;
+            }
+        }
+    }
+}

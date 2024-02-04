@@ -1,0 +1,21 @@
+// base - settings
+@import "base";
+
+// shared
+@import "./shared/header";
+@import "./shared/footer";
+
+// components
+@import "./components/tab";
+@import "./components/title";
+@import "./components/button";
+@import "./components/carousel";
+
+// partials
+@import "./partials/search";
+@import "./partials/introduction";
+@import "./partials/gallery";
+@import "./partials/campaign";
+@import "./partials/seo-area";
+@import "./partials/news";
+

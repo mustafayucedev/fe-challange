@@ -1,0 +1,44 @@
+<header>
+  <div class="container">
+    <div class="row align-items-center justify-content-between justify-content-lg-start">
+      <div class="col-auto d-lg-none">
+        <div class="mobile-menu">
+          <button>
+            <img src="./img/icons/icon-hamburger.svg" alt="Menüyü Göster">
+          </button>
+          <div class="mobile-menu-content">
+            @include('../components/navigation.html')
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-2 col-auto">
+        <div class="logo">
+          <a href="" title="TCDD Taşımacılık">
+            <img src="./img/logo.png" alt="TCDD Taşımacılık">
+          </a>
+        </div>
+      </div>
+      <div class="col-lg-10 col-auto">
+        <div class="header-top">
+          <div class="header-account">
+            <button>
+              <img src="./img/icons/icon-user.svg" alt="Hesabım">
+            </button>
+          </div>
+          <div class="header-language">
+            <button>
+              <img src="./img/icons/icon-language.svg" alt="Dil Seçiniz">
+              <span>
+                <strong>TR</strong>
+                <img src="./img/icons/icon-down.svg" alt="Dil Seçiniz">
+              </span>
+            </button>
+          </div>
+        </div>
+        <div class="header-bottom">
+          @include('../components/navigation.html')
+        </div>
+      </div>
+    </div>
+  </div>
+</header>

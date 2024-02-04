@@ -1,0 +1,69 @@
+.campaign-section {
+    background-color: $primary-300;
+    padding-block-start: 50px;
+    padding-block-end: 45px;
+    margin-block-end: 100px;
+    @include max($md) {
+        padding: 30px 0;
+        margin-block-end: 30px;
+    }
+    .campaign-content {
+        margin-block-end: 60px;
+        .campaign-item {
+            a {
+                position: relative;
+                overflow: hidden;
+                img {
+                    border-radius: 20px;
+                }
+                p {
+                    position: absolute;
+                    bottom: 0;
+                    left: 0;
+                    width: 100%;
+                    text-align: center;
+                    color: $white;
+                    font-size: 30px;
+                    padding: 20px 10px;
+                    z-index: 1;
+                    &:before {
+                        content: '';
+                        position: absolute;
+                        top: 0;
+                        left: 0;
+                        width: 100%;
+                        height: 100%;
+                        background: linear-gradient(0deg, rgba(0,0,0,0.9) 0%, rgba(23,23,23,0) 100%);
+                        border-bottom-left-radius: 20px;
+                        border-bottom-right-radius: 20px;
+                        z-index: -1;
+                    }
+                    > strong {
+                        display: block;
+                        font-weight: 700;
+                    }
+                    span {
+                        line-height: 46px;
+                        > strong {
+                            font-weight: 700;
+                        }
+                    }
+                }
+            }
+        }
+        @include max($md) {
+            margin-block-end: 30px;
+            .campaign-item {
+                a {
+                    p {
+                        font-size: 20px;
+                        span {
+                            line-height: 24px;
+                            font-size: 16px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

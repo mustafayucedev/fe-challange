@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32">
+  <g id="Hotel-layout" transform="translate(0 -0.001)">
+    <g id="Search_Result_1_Grid" transform="translate(0.5 0.501)">
+      <g id="form_search_hotel_row" transform="translate(0 0)">
+        <g id="input" transform="translate(0 0)">
+          <g id="check-in" transform="translate(0 0)">
+            <g id="ico_calendar_search_box" transform="translate(0 0)">
+              <g id="calendar-add-1">
+                <path id="Shape" d="M12.962,23.6H1.885A1.353,1.353,0,0,1,.5,22.281V3.819A1.353,1.353,0,0,1,1.885,2.5H26.809a1.353,1.353,0,0,1,1.385,1.319v8.572" transform="translate(-0.5 0.136)" fill="none" stroke="#707070" stroke-linecap="round" stroke-linejoin="round" stroke-width="1" fill-rule="evenodd"/>
+                <path id="Shape-2" data-name="Shape" d="M5.5.5V7.095" transform="translate(1.38 -0.501)" fill="none" stroke="#707070" stroke-linecap="round" stroke-linejoin="round" stroke-width="1" fill-rule="evenodd"/>
+                <path id="Shape-3" data-name="Shape" d="M15.5.5V7.095" transform="translate(5.141 -0.501)" fill="none" stroke="#707070" stroke-linecap="round" stroke-linejoin="round" stroke-width="1" fill-rule="evenodd"/>
+                <path id="Shape-4" data-name="Shape" d="M.5,7.5H28.194" transform="translate(-0.5 2.132)" fill="none" stroke="#707070" stroke-linecap="round" stroke-linejoin="round" stroke-width="1" fill-rule="evenodd"/>
+                <circle id="Oval" cx="7.5" cy="7.5" r="7.5" transform="translate(16 16)" fill="none" stroke="#707070" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+                <path id="Shape-5" data-name="Shape" d="M17.5,14.5v7.912" transform="translate(5.893 5.28)" fill="none" stroke="#707070" stroke-linecap="round" stroke-linejoin="round" stroke-width="1" fill-rule="evenodd"/>
+                <path id="Shape-6" data-name="Shape" d="M22.412,17.5H14.5" transform="translate(5.281 5.892)" fill="none" stroke="#707070" stroke-linecap="round" stroke-linejoin="round" stroke-width="1" fill-rule="evenodd"/>
+              </g>
+            </g>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

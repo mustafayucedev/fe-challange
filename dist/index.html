@@ -1,0 +1,754 @@
+<!DOCTYPE html>
+<html lang="tr">
+  <head>
+    <meta charset="UTF-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<!-- Google Font -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+<!-- Owl Slider -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+<!-- Bootstrap -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/css/bootstrap-grid.min.css">
+<!-- Date Picker -->
+<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/daterangepicker/daterangepicker.css" />
+<!-- Toastify -->
+<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+<!-- Stylesheet -->
+<link rel="stylesheet" type="text/css" href="css/style.css" />
+    <title>TCDD Taşımacılık | Ana Sayfa</title>
+  </head>
+  <body>
+    <header>
+  <div class="container">
+    <div class="row align-items-center justify-content-between justify-content-lg-start">
+      <div class="col-auto d-lg-none">
+        <div class="mobile-menu">
+          <button>
+            <img src="./img/icons/icon-hamburger.svg" alt="Menüyü Göster">
+          </button>
+          <div class="mobile-menu-content">
+            <nav class="navigation">
+  <ul>
+    <li>
+      <a href="#" title="Fırsatlar & Kampanyalar">Fırsatlar & Kampanyalar</a>
+    </li>
+    <li>
+      <a href="#" title="İstasyon Sorgula">İstasyon Sorgula</a>
+    </li>
+    <li>
+      <a href="#" title="Kurumsal">Kurumsal</a>
+    </li>
+    <li>
+      <a href="#" title="Lojistik">Lojistik</a>
+    </li>
+    <li>
+      <a href="#" title="Engelsiz Ulaşım">Engelsiz Ulaşım</a>
+    </li>
+    <li>
+      <a href="#" title="Müşteri İlişkileri">Müşteri İlişkileri</a>
+    </li>
+    <li>
+      <a href="#" title="Bize Ulaşın">Bize Ulaşın</a>
+    </li>
+  </ul>
+</nav>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-2 col-auto">
+        <div class="logo">
+          <a href="" title="TCDD Taşımacılık">
+            <img src="./img/logo.png" alt="TCDD Taşımacılık">
+          </a>
+        </div>
+      </div>
+      <div class="col-lg-10 col-auto">
+        <div class="header-top">
+          <div class="header-account">
+            <button>
+              <img src="./img/icons/icon-user.svg" alt="Hesabım">
+            </button>
+          </div>
+          <div class="header-language">
+            <button>
+              <img src="./img/icons/icon-language.svg" alt="Dil Seçiniz">
+              <span>
+                <strong>TR</strong>
+                <img src="./img/icons/icon-down.svg" alt="Dil Seçiniz">
+              </span>
+            </button>
+          </div>
+        </div>
+        <div class="header-bottom">
+          <nav class="navigation">
+  <ul>
+    <li>
+      <a href="#" title="Fırsatlar & Kampanyalar">Fırsatlar & Kampanyalar</a>
+    </li>
+    <li>
+      <a href="#" title="İstasyon Sorgula">İstasyon Sorgula</a>
+    </li>
+    <li>
+      <a href="#" title="Kurumsal">Kurumsal</a>
+    </li>
+    <li>
+      <a href="#" title="Lojistik">Lojistik</a>
+    </li>
+    <li>
+      <a href="#" title="Engelsiz Ulaşım">Engelsiz Ulaşım</a>
+    </li>
+    <li>
+      <a href="#" title="Müşteri İlişkileri">Müşteri İlişkileri</a>
+    </li>
+    <li>
+      <a href="#" title="Bize Ulaşın">Bize Ulaşın</a>
+    </li>
+  </ul>
+</nav>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+
+    <main>
+      <section class="search-section">
+    <div class="search-container">
+        <div class="search-title">Nereye Gitmek İstersiniz?</div>
+        <ul class="search-tab-header js-tab-title">
+            <li class="active" data-tab="ticket">
+                <button>
+                    <img src="./img/icons/icon-ticket.svg" alt="Bilet Satış">
+                    <span>Bilet Satış</span>
+                </button>
+            </li>
+            <li data-tab="reservation">
+                <button>
+                    <img src="./img/icons/icon-reservation.svg" alt="Rezervasyon">
+                    <span>Rezervasyon</span>
+                </button>
+            </li>
+            <li data-tab="map-search">
+                <button>
+                    <img src="./img/icons/icon-map-search.svg" alt="Bilet Satış">
+                    <span>Haritadan Arama</span>
+                </button>
+            </li>
+        </ul>
+        <div class="search-tab-content">
+            <div class="js-tab-content active" data-tab-content="ticket">
+                <div class="search-inner">
+                    <div class="search-item" id="item-from">
+                        <div class="search-icon">
+                            <img src="./img/icons/icon-location.svg" alt="Nereden">
+                        </div>
+                        <div class="search-form">
+                            <div class="search-label">Nereden</div>
+                            <input type="text" placeholder="Şehir veya İstasyon" id="from">
+                            <div class="location-list" id="from-list">
+                                <div class="location-favorites">
+                                    <div class="location-favorites-header">
+                                        <div class="location-favorites-title">
+                                            <img src="./img/icons/icon-star.svg" alt="Favori Duraklarım">
+                                            <span>Favori Duraklarım</span>
+                                        </div>
+                                        <a href="#" title="Haritadan Ara">Haritadan ara</a>
+                                    </div>
+                                    <div class="location-favorites-list">
+                                        <ul class="locations locations-from">
+                                            <li>
+                                                <img src="./img/icons/icon-location.svg" alt="Pendik Garı / İstanbul">
+                                                <span>Pendik Garı / İstanbul</span>
+                                            </li>
+                                            <li>
+                                                <img src="./img/icons/icon-location.svg" alt="Maltepe Garı / İstanbul">
+                                                <span>Maltepe Garı / İstanbul</span>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <ul class="locations locations-from">
+                                    <li>
+                                        <img src="./img/icons/icon-location.svg" alt="Bakırköy Garı / İstanbul">
+                                        <span>Bakırköy Garı / İstanbul</span>
+                                    </li>
+                                    <li>
+                                        <img src="./img/icons/icon-location.svg" alt="Bostancı Garı / İstanbul">
+                                        <span>Bostancı Garı / İstanbul</span>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="search-item" id="item-to">
+                        <div class="search-icon">
+                            <img src="./img/icons/icon-location.svg" alt="Nereye">
+                        </div>
+                        <div class="search-form">
+                            <div class="search-label">Nereye</div>
+                            <input type="text" placeholder="Şehir veya İstasyon" id="to">
+                            <div class="location-list location-list-to" id="to-list">
+                                <div class="location-favorites">
+                                    <div class="location-favorites-header">
+                                        <div class="location-favorites-title">
+                                            <img src="./img/icons/icon-star.svg" alt="Favori Duraklarım">
+                                            <span>Favori Duraklarım</span>
+                                        </div>
+                                        <a href="#" title="Haritadan Ara">Haritadan ara</a>
+                                    </div>
+                                    <div class="location-favorites-list">
+                                        <ul class="locations locations-to">
+                                            <li>
+                                                <img src="./img/icons/icon-location.svg" alt="Pendik Garı / İstanbul">
+                                                <span>Pendik Garı / İstanbul</span>
+                                            </li>
+                                            <li>
+                                                <img src="./img/icons/icon-location.svg" alt="Maltepe Garı / İstanbul">
+                                                <span>Maltepe Garı / İstanbul</span>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <ul class="locations locations-to">
+                                    <li>
+                                        <img src="./img/icons/icon-location.svg" alt="Bakırköy Garı / İstanbul">
+                                        <span>Bakırköy Garı / İstanbul</span>
+                                    </li>
+                                    <li>
+                                        <img src="./img/icons/icon-location.svg" alt="Bostancı Garı / İstanbul">
+                                        <span>Bostancı Garı / İstanbul</span>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="search-item">
+                        <div class="search-icon">
+                            <img src="./img/icons/icon-date.svg" alt="Gidiş-Dönüş Tarihi">
+                        </div>
+                        <div class="search-form">
+                            <div class="search-label">Gidiş-Dönüş Tarihi</div>
+                            <input type="text" placeholder="Gidiş Tarihi - Dönüş Tarihi" id="date">
+                        </div>
+                    </div>
+                    <div class="search-item search-item-last">
+                        <div class="search-icon">
+                            <img src="./img/icons/icon-passenger.svg" alt="Yolcu Sayısı">
+                        </div>
+                        <div class="search-form">
+                            <div class="search-label">Yolcu Sayısı</div>
+                            <input type="text" placeholder="1 Kişi" id="passenger">
+                            <div class="passenger-list" id="passenger-list">
+                                <div class="passenger-header">Yolcu Seçimi</div>
+                                <div class="passenger-content">
+                                    <ul>
+                                        <li>
+                                            <div class="passenger-title">
+                                                <p>Yetişkin</p>
+                                                <span>26+</span>
+                                            </div>
+                                            <div class="passenger-qty qty-item">
+                                                <button class="decrement">-</button>
+                                                <input type="text" value="1">
+                                                <button class="increment">+</button>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="passenger-title">
+                                                <p>Genç</p>
+                                                <span>13-26</span>
+                                            </div>
+                                            <div class="passenger-qty qty-item">
+                                                <button class="decrement">-</button>
+                                                <input type="text" value="0">
+                                                <button class="increment">+</button>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="passenger-title">
+                                                <p>Çocuk</p>
+                                                <span>7-12</span>
+                                            </div>
+                                            <div class="passenger-qty qty-item">
+                                                <button class="decrement">-</button>
+                                                <input type="text" value="0">
+                                                <button class="increment">+</button>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="passenger-title">
+                                                <p>60-64 Yaş</p>
+                                                <span>(%15 İndirim)</span>
+                                            </div>
+                                            <div class="passenger-qty qty-item">
+                                                <button class="decrement">-</button>
+                                                <input type="text" value="0">
+                                                <button class="increment">+</button>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="passenger-title">
+                                                <p>Öğretmen</p>
+                                            </div>
+                                            <div class="passenger-qty qty-item">
+                                                <button class="decrement">-</button>
+                                                <input type="text" value="0">
+                                                <button class="increment">+</button>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="passenger-title passenger-title-custom">
+                                                <p>Evcil hayvan</p>
+                                            </div>
+                                            <div class="passenger-qty qty-item">
+                                                <button class="decrement">-</button>
+                                                <input type="text" value="0">
+                                                <button class="increment">+</button>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <button class="search-button">ARA</button>
+                        </div>
+                     </div>
+                     <div class="location-change" id="location-change">
+                        <button>
+                            <img src="./img/icons/icon-location-change.svg" alt="Konum Değiştir">
+                        </button>
+                     </div>
+                </div>
+             </div>
+             <div class="js-tab-content" data-tab-content="reservation">
+                <p class="search-info">Rezervasyon Modülü Hazırlanıyor..</p>
+             </div>
+             <div class="js-tab-content" data-tab-content="map-search">
+                <p class="search-info">Haritadan Arama Modülü Hazırlanıyor..</p>
+             </div>
+        </div>
+    </div>
+</section>
+      <section class="introduction-section">
+    <h2>7 yıl sonra yeniden…</h2>
+    <h1>Boğaziçi Ekspresi Raylarda!</h1>
+</section>
+      <section class="gallery-section">
+    <div class="container">
+        <div class="section-titles">
+            <div class="section-title title-black">BİZİMLE GEZİN</div>
+            <div class="section-sub-title">Türkiye’nin tüm güzelliklerini tren yolculuğunda görmeye ne dersiniz…</div>
+        </div>
+        <div class="gallery-row">
+            <div class="gallery-column-left">
+                <div class="gallery-item mb-md-4">
+                    <a href="#" title="Kars">
+                        <img src="./img/gallery-1.jpg" alt="Kars">
+                        <span>Kars</span>
+                    </a>
+                </div>
+                <div class="gallery-item">
+                    <a href="#" title="Eskişehir">
+                        <img src="./img/gallery-2.jpg" alt="Eskişehir">
+                        <span>Eskişehir</span>
+                    </a>
+                </div>
+            </div>
+            <div class="gallery-column-center">
+                <div class="gallery-item">
+                    <a href="#" title="Van Gölü Ekspresi">
+                        <img src="./img/gallery-3.jpg" alt="Van Gölü Ekspresi">
+                        <span>Van Gölü Ekspresi</span>
+                    </a>
+                </div>
+            </div>
+            <div class="gallery-column-right">
+                <div class="gallery-item">
+                    <a href="#" title="İzmir - Bandırma Ekspresi">
+                        <img src="./img/gallery-4.jpg" alt="İzmir - Bandırma Ekspresi">
+                        <span>İzmir - Bandırma Ekspresi</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="section-button">
+            <a href="#" title="Daha Fazla">Daha Fazla</a>
+        </div>
+    </div>
+</section>
+      <section class="campaign-section">
+    <div class="section-titles">
+        <div class="section-title">KAMPANYALAR</div>
+        <div class="section-sub-title">Kampanyaları takip ederek avantajlı fiyatlarla seyahatin keyfini daha fazla çıkarın…</div>
+    </div>
+    <div class="campaign-content owl-carousel owl-theme" id="campaign-content">
+        <div class="campaign-item">
+            <a href="#" title="84 tl’den başlayan Fiyatlarla…">
+                <img src="./img/campaign-1.jpg" alt="84 tl’den başlayan Fiyatlarla…">
+                <p>
+                    <strong>Ankara</strong>
+                    <span>
+                        <strong>84 tl’</strong>den başlayan Fiyatlarla…
+                    </span>
+                </p>
+            </a>
+        </div>
+        <div class="campaign-item">
+            <a href="#" title="289 tl’den başlayan">
+                <img src="./img/campaign-2.jpg" alt="Fiyatlarla…">
+                <p>
+                    <strong>Doğu Ekspresi</strong>
+                    <span>
+                        <strong>289 tl’</strong>den başlayan Fiyatlarla…
+                    </span>
+                </p>
+            </a>
+        </div>
+        <div class="campaign-item">
+            <a href="#" title="84 tl’den başlayan">
+                <img src="./img/campaign-3.jpg" alt="Fiyatlarla…">
+                <p>
+                    <strong>İzmir</strong>
+                    <span>
+                        <strong>84 tl’</strong>den başlayan Fiyatlarla…
+                    </span>
+                </p>
+            </a>
+        </div>
+        <div class="campaign-item">
+            <a href="#" title="65 tl’den başlayan Fiyatlarla…">
+                <img src="./img/campaign-4.jpg" alt="65 tl’den başlayan Fiyatlarla…">
+                <p>
+                    <strong>YHT İST-ANK</strong>
+                    <span>
+                        <strong>65 tl’</strong>den başlayan Fiyatlarla…
+                    </span>
+                </p>
+            </a>
+        </div>
+        <div class="campaign-item">
+            <a href="#" title="84 tl’den başlayan Fiyatlarla…">
+                <img src="./img/campaign-5.jpg" alt="84 tl’den başlayan Fiyatlarla…">
+                <p>
+                    <strong>Ankara</strong>
+                    <span>
+                        <strong>84 tl’</strong>den başlayan Fiyatlarla…
+                    </span>
+                </p>
+            </a>
+        </div>
+        <div class="campaign-item">
+            <a href="#" title="65 tl’den başlayan Fiyatlarla…">
+                <img src="./img/campaign-4.jpg" alt="65 tl’den başlayan Fiyatlarla…">
+                <p>
+                    <strong>YHT İST-ANK</strong>
+                    <span>
+                        <strong>65 tl’</strong>den başlayan Fiyatlarla…
+                    </span>
+                </p>
+            </a>
+        </div>
+        <div class="campaign-item">
+            <a href="#" title="84 tl’den başlayan Fiyatlarla…">
+                <img src="./img/campaign-5.jpg" alt="84 tl’den başlayan Fiyatlarla…">
+                <p>
+                    <strong>Ankara</strong>
+                    <span>
+                        <strong>84 tl’</strong>den başlayan Fiyatlarla…
+                    </span>
+                </p>
+            </a>
+        </div>
+    </div>
+    <div class="section-button">
+        <a href="#" title="Daha Fazla">Daha Fazla</a>
+    </div>
+ </section>
+      <section class="seo-area-section">
+    <div class="container">
+        <div class="seo-area">
+            <div class="seo-area-content">
+                <div class="section-titles">
+                    <div class="section-title">NEDEN TREN YOLCULUĞU?</div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-4 col-md-6">
+                        <div class="seo-area-item">
+                            <div class="seo-area-icon">
+                                <img src="./img/icons/icon-seo-area-1.svg" alt="Şehir Merkezi">
+                            </div>
+                            <div class="seo-area-text">
+                                <h3>ŞEHİR MERKEZİ</h3>
+                                <p>
+                                    Tren yolculuklarının en güzel yanlarından bir 
+                                    tanesi de tren istasyonlarının genellikle
+                                    şehir merkezlerinde olması. .
+                                </p>
+                            </div>
+                            <div class="seo-area-link">
+                                <a href="#" title="Devamını oku">Devamını oku</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="seo-area-item">
+                            <div class="seo-area-icon">
+                                <img src="./img/icons/icon-seo-area-2.svg" alt="Tasarruf">
+                            </div>
+                            <div class="seo-area-text">
+                                <h3>TASARRUF</h3>
+                                <p>
+                                    Tren yolculukları uçak ve otobüs yolculuklarına göre 
+                                    daha uygun maliyetlerle yolculuk yapmaya 
+                                    imkan tanıyor. 
+                                </p>
+                            </div>
+                            <div class="seo-area-link">
+                                <a href="#" title="Devamını oku">Devamını oku</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="seo-area-item">
+                            <div class="seo-area-icon">
+                                <img src="./img/icons/icon-seo-area-3.svg" alt="Bagaj">
+                            </div>
+                            <div class="seo-area-text">
+                                <h3>BAGAJ</h3>
+                                <p>
+                                    Tren yolculuklarında bagaj sınırı olmadığı için 
+                                    yanınıza almanız gereken eşyalardan
+                                    feragat etmek zorunda kalmazsınız.
+                                </p>
+                            </div>
+                            <div class="seo-area-link">
+                                <a href="#" title="Devamını oku">Devamını oku</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="seo-area-item">
+                            <div class="seo-area-icon">
+                                <img src="./img/icons/icon-seo-area-4.svg" alt="Konfor ve Özgürlük">
+                            </div>
+                            <div class="seo-area-text">
+                                <h3>KONFOR VE ÖZGÜRLÜK</h3>
+                                <p>
+                                    Yolculukların en büyük nimetlerinden bir 
+                                    tanesi oturduğunuz koltukların konforlu 
+                                    olması ve ayaklarınızı dilediğiniz 
+                                </p>
+                            </div>
+                            <div class="seo-area-link">
+                                <a href="#" title="Devamını oku">Devamını oku</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="seo-area-item">
+                            <div class="seo-area-icon">
+                                <img src="./img/icons/icon-seo-area-5.svg" alt="Trafik Sorunu">
+                            </div>
+                            <div class="seo-area-text">
+                                <h3>TRAFİK SORUNU</h3>
+                                <p>
+                                    Karayolu trafiği olur havayolu trafiği olur ama demiryolu 
+                                    trafiği olmaz.trafiği olur havayolu trafiği 
+                                    olur ama demiryolu trafiği olmaz.
+                                </p>
+                            </div>
+                            <div class="seo-area-link">
+                                <a href="#" title="Devamını oku">Devamını oku</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="seo-area-item">
+                            <div class="seo-area-icon">
+                                <img src="./img/icons/icon-seo-area-6.svg" alt="Çevre Dostu">
+                            </div>
+                            <div class="seo-area-text">
+                                <h3>ÇEVRE DOSTU</h3>
+                                <p>
+                                    Trenler bilinen tüm ulaşım araçları aradında
+                                    çevreye en az zarar veren araçtır.Gerek 
+                                    gürültü, gerek carbon…
+                                </p>
+                            </div>
+                            <div class="seo-area-link">
+                                <a href="#" title="Devamını oku">Devamını oku</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="section-button">
+                    <a href="#" title="Hemen Bilet al…">Hemen Bilet al…</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+      <section class="news-section">
+    <div class="section-titles">
+        <div class="section-title">HABERLER</div>
+        <div class="section-sub-title">Kampanyaları takip ederek avantajlı fiyatlarla seyahatin keyfini daha fazla çıkarın…</div>
+    </div>
+    <div class="news-content owl-carousel owl-theme" id="news-content">
+        <div class="news-item">
+            <a href="#" title="Haber Başlık 1">
+                <img src="./img/news.jpg" alt="Haber Başlık 1">
+            </a>
+        </div>
+        <div class="news-item">
+            <a href="#" title="Haber Başlık 2">
+                <img src="./img/news.jpg" alt="Haber Başlık 2">
+            </a>
+        </div>
+        <div class="news-item">
+            <a href="#" title="Haber Başlık 1">
+                <img src="./img/news.jpg" alt="Haber Başlık 1">
+            </a>
+        </div>
+        <div class="news-item">
+            <a href="#" title="Haber Başlık 2">
+                <img src="./img/news.jpg" alt="Haber Başlık 2">
+            </a>
+        </div>
+        <div class="news-item">
+            <a href="#" title="Haber Başlık 1">
+                <img src="./img/news.jpg" alt="Haber Başlık 1">
+            </a>
+        </div>
+        <div class="news-item">
+            <a href="#" title="Haber Başlık 2">
+                <img src="./img/news.jpg" alt="Haber Başlık 2">
+            </a>
+        </div>
+    </div>
+    <div class="section-button">
+        <a href="#" title="Daha Fazla">Daha Fazla</a>
+    </div>
+ </section>
+    </main>
+
+    <footer>
+  <div class="container">
+    <div class="footer-content">
+      <div class="footer-top">
+        <ul class="footer-menu">
+          <li>
+            <a href="#" title="Fırsatlar & Kampanyalar">Fırsatlar & Kampanyalar</a>
+          </li>
+          <li>
+            <a href="#" title="İstasyon Sorgula">İstasyon Sorgula</a>
+          </li>
+          <li>
+            <a href="#" title="Kurumsal">Kurumsal</a>
+          </li>
+          <li>
+            <a href="#" title="Lojistik">Lojistik</a>
+          </li>
+          <li>
+            <a href="#" title="Engelsiz Ulaşım">Engelsiz Ulaşım</a>
+          </li>
+          <li>
+            <a href="#" title="Müşteri İlişkileri">Müşteri İlişkileri</a>
+          </li>
+          <li>
+            <a href="#" title="Bize Ulaşın">Bize Ulaşın</a>
+          </li>
+        </ul>
+      </div>
+      <div class="footer-middle">
+        <div class="row align-items-center justify-content-between">
+          <div class="col-md-auto">
+            <div class="footer-mobile-apps">
+              <a href="#" title="Google Play" target="_blank">
+                <img src="./img/play-store.png" alt="Google Play">
+              </a>
+              <a href="#" title="App Store" target="_blank">
+                <img src="./img/app-store.png" alt="App Store">
+              </a>
+            </div>
+          </div>
+          <div class="col-md-auto">
+            <div class="footer-socials">
+              <ul>
+                <li>
+                  <a href="#" title="Instagram" target="_blank">
+                    <img src="./img/icons/icon-instagram.svg" alt="Instagram">
+                  </a>
+                </li>
+                <li>
+                  <a href="#" title="Twitter" target="_blank">
+                    <img src="./img/icons/icon-twitter.svg" alt="Twitter">
+                  </a>
+                </li>
+                <li>
+                  <a href="#" title="Facebook" target="_blank">
+                    <img src="./img/icons/icon-facebook.svg" alt="Facebook">
+                  </a>
+                </li>
+                <li>
+                  <a href="#" title="Gmail" target="_blank">
+                    <img src="./img/icons/icon-gmail.svg" alt="Gmail">
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <div class="row align-items-center justify-content-between">
+          <div class="col-auto order-lg-1 order-2">
+            <div class="footer-copyright">
+              <p> © 2020 TCDD Taşımacılık </p>
+            </div>
+          </div>
+          <div class="col-auto order-lg-2 order-1">
+            <div class="footer-sub-menu">
+              <ul>
+                <li>
+                  <a href="#" title="Basın">Basın</a>
+                </li>
+                <li>
+                  <a href="#" title="Haberler">Haberler</a>
+                </li>
+                <li>
+                  <a href="#" title="Duyurular">Duyurular</a>
+                </li>
+                <li>
+                  <a href="#" title="İhaleler">İhaleler</a>
+                </li>
+                <li>
+                  <a href="#" title="Bilgi Toplum Hizmetleri">Bilgi Toplum Hizmetleri</a>
+                </li>
+                <li>
+                  <a href="#" title="Kişisel Verileri Koruma Kanunu">Kişisel Verileri Koruma Kanunu</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+    <!-- jQuery -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+<!-- Owl Carousel -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+<!-- Moment -->
+<script type="text/javascript" src="https://cdn.jsdelivr.net/momentjs/latest/moment.min.js"></script>
+<!-- Date Picker -->
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/daterangepicker/daterangepicker.min.js"></script>
+<!-- Application Javascript -->
+<script src="./js/script.js"></script>
+  </body>
+</html>

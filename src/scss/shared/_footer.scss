@@ -1,0 +1,150 @@
+footer {
+    background-color: $primary-100;
+    padding-block-start: 45px;
+    padding-block-end: 35px;
+    margin-block-start: 270px;
+    @include max($md) {
+        padding: 30px 0;
+        margin-block-start: 30px;
+    }
+}
+
+.footer-content {
+    padding-inline-start: 165px;
+    padding-inline-end: 145px;
+    @include max($lg) {
+        padding: 0;
+    }
+}
+
+.footer-top {
+    margin-block-end: 40px;
+    @include max($md) {
+        margin-block-end: 15px;
+    }
+}
+
+ul.footer-menu {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    li {
+        a {
+            color: $white;
+            font-size: 18px;
+            font-weight: 500;
+            position: relative;
+            &:before {
+                content: '';
+                position: absolute;
+                bottom: -5px;
+                left: 0;
+                width: 0;
+                height: 2px;
+                opacity: 0;
+                visibility: hidden;
+                background-color: $white;
+                transition: $transition;
+            }
+            &:hover {
+                &:before {
+                    opacity: 1;
+                    visibility: visible;
+                    width: 40px;
+                }
+            }
+        }
+    }
+    @include max($lg) {
+        li {
+            a {
+                font-size: 16px;
+            }
+        }
+    }
+    @include max($md) {
+        li {
+            flex: 0 0 50%;
+            max-width: 50%;
+            a {
+                font-size: 13px;
+            }
+        }
+    }
+}
+
+.footer-middle {
+    margin-block-end: 40px;
+    @include max($md) {
+        margin-block-end: 15px;
+    }
+}
+
+.footer-mobile-apps {
+    display: flex;
+    align-items: center;
+    column-gap: 15px;
+    a {
+        img {
+            max-height: 45px;
+        }
+    }
+    @include max($xs) {
+        margin-block-end: 15px;
+    }
+}
+
+.footer-socials {
+    ul {
+        display: flex;
+        align-items: center;
+        column-gap: 10px;
+        li {
+            a {
+                transition: $transition;
+                &:hover {
+                    transform: translateY(3px);
+                }
+            }
+        }
+    }
+}
+
+.footer-copyright {
+    p {
+        color: $white;
+        font-size: 14px;
+    }
+    @include max($md) {
+        margin-top: 15px;
+    }
+}
+
+.footer-sub-menu {
+    ul {
+        display: flex;
+        align-items: center;
+        column-gap: 15px;
+        li {
+            a {
+                color: $white;
+                font-size: 14px;
+                &:hover {
+                    text-decoration: underline;
+                }
+            }
+        }
+        @include max($md) {
+            flex-wrap: wrap;
+            gap: 0;
+            li {
+                flex: 0 0 50%;
+                max-width: 50%;
+                a {
+                    font-size: 13px;
+                }
+            }
+        }
+    }
+}

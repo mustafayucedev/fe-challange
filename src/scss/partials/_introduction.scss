@@ -1,0 +1,33 @@
+.introduction-section {
+    padding: 55px 0;
+    margin-block-end: 90px;
+    background-color: $secondary-200;
+    color: $white;
+    text-align: center;
+    h2 {
+        font-size: 30px;
+        font-weight: 600;
+    }
+    h1 {
+        font-size: 60px;
+        font-weight: 700;
+    }
+    @include max($sm) {
+        padding: 15px 0;
+        margin-block-end: 30px;
+        h2 {
+            font-size: 20px;
+        }
+        h1 {
+            font-size: 32px;
+        }
+    }
+    @include max($xs) {
+        h2 {
+            font-size: 18px;
+        }
+        h1 {
+            font-size: 24px;
+        }
+    }
+}

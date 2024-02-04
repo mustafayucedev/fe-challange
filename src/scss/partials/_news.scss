@@ -1,0 +1,11 @@
+.news-section {
+    background-color: $primary-300;
+    padding-block-start: 40px;
+    padding-block-end: 30px;
+    .news-content {
+        margin-block-end: 30px;
+    }
+    @include max($md) {
+        padding: 30px;
+    }
+}

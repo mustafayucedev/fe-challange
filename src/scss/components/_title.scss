@@ -1,0 +1,33 @@
+.section-titles {
+    text-align: center;
+    margin-block-end: 30px;
+    .section-title {
+        color: $primary-100;
+        font-size: 40px;
+        font-weight: 700;
+        &.title-black {
+            font-weight: 800;
+        }
+    }
+    .section-sub-title {
+        color: $primary-200;
+        font-size: 20px;
+    }
+    @include max($md) {
+        .section-title {
+            font-size: 24px;
+        }
+        .section-sub-title {
+            font-size: 16px;
+        }
+    }
+    @include max($xs) {
+        .section-title {
+            font-size: 22px;
+            margin-block-end: 5px;
+        }
+        .section-sub-title {
+            font-size: 13px;
+        }
+    }
+}

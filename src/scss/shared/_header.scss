@@ -1,0 +1,156 @@
+header {
+    padding: 20px 0;
+    @include max($md) {
+        padding: 5px 0;
+        position: sticky;
+        top: 0;
+        left: 0;
+        z-index: 99;
+        background-color: $white;
+    }
+}
+
+.logo {
+    a {
+        img {
+            max-height: 125px;
+        }
+    }
+    @include max($sm) {
+        a {
+            img {
+                max-height: 90px;
+            }
+        }
+    }
+    @include max($xs) {
+        a {
+            img {
+                max-height: 80px;
+            }
+        }
+    }
+    @include max($xxxs) {
+        a {
+            img {
+                max-height: 70px;
+            }
+        }
+    }
+}
+
+.header-top {
+    display: flex;
+    justify-content: flex-end;
+    column-gap: 25px;
+    margin-block-end: 50px;
+    @include max($md) {
+        margin: 0;
+        column-gap: 15px;
+    }
+}
+
+.header-language {
+    button {
+        @include center;
+        span {
+            display: flex;
+            align-items: center;
+            padding-left: 10px;
+            strong {
+                color: $primary-100;
+                font-size: 16px;
+                font-weight: 500;
+                margin-right: 5px;
+                transition: $transition;
+            }
+        }
+        &:hover {
+            strong {
+                color: $secondary-200;
+            }
+        }
+        @include max($md) {
+            span {
+                display: none;
+            }
+        }
+    }
+}
+
+.mobile-menu {
+    > button {
+        img {
+            width: 24px;
+            height: 24px;
+            border: 1px solid $primary-100;
+            border-radius: 4px;
+        }
+    }
+    .mobile-menu-content {
+        position: absolute;
+        top: 105px;
+        left: 0;
+        width: 100%;
+        z-index: 10;
+        background-color: $primary-600;
+        border-top: 1px solid $primary-700;
+        border-bottom: 1px solid $primary-700;
+        padding: 30px;
+        display: none;
+        &.active {
+            display: block;
+        }
+    }
+    @include max($xs){
+        .mobile-menu-content {
+            top: 85px;
+        }
+    }
+}
+
+.navigation {
+    ul {
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        flex-wrap: wrap;
+        column-gap: 30px;
+        li {
+            a {
+                color: $primary-100;
+                font-size: 18px;
+                font-weight: 500;
+                transition: $transition;
+                &:hover {
+                    color: $secondary-200;
+                }
+            }
+        }
+        @include max($lg) {
+            column-gap: 10px;
+            li {
+                a {
+                    font-size: 14px;
+                }
+            }
+        }
+        @include max($md) {
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: flex-start;
+            gap: 15px;
+            li {
+                a {
+                    font-size: 16px;
+                }
+            }
+        }
+    }
+}
+
+.header-bottom {
+    @include max($md) {
+        display: none;
+    }
+}

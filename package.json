@@ -1,0 +1,40 @@
+{
+  "name": "ditravo",
+  "version": "1.0.0",
+  "description": "",
+  "author": "",
+  "license": "MIT",
+  "main": "gulpfile.js",
+  "scripts": {
+    "gulp": "gulp"
+  },
+  "options": {
+    "paths": {
+      "root": "./",
+      "src": {
+        "base": "./src",
+        "css": "./src/scss",
+        "js": "./src/js",
+        "img": "./src/img"
+      },
+      "dist": {
+        "base": "./dist",
+        "css": "./dist/css",
+        "js": "./dist/js",
+        "img": "./dist/img"
+      }
+    }
+  },
+  "devDependencies": {
+    "@babel/preset-env": "^7.21.4",
+    "autoprefixer": "^10.4.7",
+    "browser-sync": "^2.27.9",
+    "gulp": "^4.0.2",
+    "gulp-clean-css": "^4.3.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-file-include": "^2.3.0",
+    "gulp-sass": "^5.1.0",
+    "gulp-uglify": "^3.0.2",
+    "sass": "^1.62.0"
+  }
+}
