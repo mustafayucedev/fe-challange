@@ -1,3 +1,7 @@
+## Deploy
+
+https://fe-challange.vercel.app/
+
 ## Kurulum
 
 Projeyi çalıştırmak için aşağıdaki adımları takip edin.
